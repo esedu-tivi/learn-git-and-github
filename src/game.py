@@ -37,7 +37,7 @@ class Game:
             self.player.y += 5
             
         # Keep player in bounds
-        self.player.clamp_ip(self.screen.get_rect())
+        # self.player.clamp_ip(self.screen.get_rect())
         
         # Update enemy
         self.enemy.update()
